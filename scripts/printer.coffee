@@ -8,5 +8,5 @@ exec = require('child_process').exec;
 
 module.exports = (robot) ->
   robot.respond /(printer)( me)?(.*)/i, (msg) ->
-    exec "/usr/local/bin/wacaw --png /Users/webgeek/Dropbox/Replicator/status.png", (err, stdout, stderr) ->
-      msg.send "https://www.dropbox.com/s/ydzywyewrifcia2/status.png"
+    exec "/usr/local/bin/wacaw --png /Users/webgeek/Dropbox/public/status", (err, stdout, stderr) ->
+      msg.send "https://dl.dropboxusercontent.com/u/169765/status.png"
