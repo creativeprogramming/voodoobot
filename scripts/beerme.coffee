@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://raw.github.com/github/hubot-scripts/master/src/scripts/beerme.coffee">redirected</a>.</body></html>
